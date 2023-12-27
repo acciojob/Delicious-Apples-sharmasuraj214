@@ -1,68 +1,63 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/styles.css">
+  <meta charset="UTF-8">
+  <title>Apple Varieties</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
-
 <body>
-	<section class="product">
-		<div class="product__photo">
-			<div class="photo-container">
-				<div class="photo-main">
-					<div class="controls">
-						<i class="fa fa-share-alt"></i>
-						<i class="fa fa-heart-o"></i>
-					</div>
-					<img src="https://res.cloudinary.com/john-mantas/image/upload/v1537291846/codepen/delicious-apples/green-apple-with-slice.png"
-						alt="green apple slice">
-				</div>
-				<div class="photo-album">
-					<ul>
-						<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"
-								alt="green apple"></li>
-						<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303532/codepen/delicious-apples/half-apple.png"
-								alt="half apple"></li>
-						<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303160/codepen/delicious-apples/green-apple-flipped.png"
-								alt="green apple"></li>
-						<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537303708/codepen/delicious-apples/apple-top.png"
-								alt="apple top"></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="product__info">
-			<div class="title">
-				<h1>Delicious Apples</h1>
-				<span>CODE: 45999</span>
-			</div>
-			<div class="price">
-				R$ <span>7.93</span>
-			</div>
-			<div class="variant">
-				<h3>SELECT A COLOR</h3>
-				<ul>
-					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png"
-							alt="green apple"></li>
-					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png"
-							alt="yellow apple"></li>
-					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png"
-							alt="orange apple"></li>
-					<li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png"
-							alt="red apple"></li>
-				</ul>
-			</div>
-			<div class="description">
-				
-			</div>
-		</div>
-	</section>
-</body>
+  <header>
+    <h1>Apple Varieties</h1>
+  </header>
 
+  <main>
+    <section class="product__photo">
+      <div class="photo-container">
+        <div class="photo-main">
+          <img src="main_apple_image.jpg" alt="Main Apple Image">
+        </div>
+        <div class="photo-album">
+          <ul>
+            <li><img src="green_apple_image.jpg" alt="Green Apple"></li>
+            <li><img src="yellow_apple_image.jpg" alt="Yellow Apple"></li>
+            <li><img src="orange_apple_image.jpg" alt="Orange Apple"></li>
+            <li><img src="red_apple_image.jpg" alt="Red Apple"></li>
+            <!-- Add images for different apple varieties -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="details">
+      <div class="price">
+        <h2>Price</h2>
+        <p>$7.93</p>
+      </div>
+
+      <div class="variant">
+        <h2>Varieties</h2>
+        <ul>
+          <li><span>Green:</span> <img src="green_apple_link.jpg" alt="Green Apple"></li>
+          <li><span>Yellow:</span> <img src="yellow_apple_link.jpg" alt="Yellow Apple"></li>
+          <li><span>Orange:</span> <img src="orange_apple_link.jpg" alt="Orange Apple"></li>
+          <li><span>Red:</span> <img src="red_apple_link.jpg" alt="Red Apple"></li>
+          <!-- Add links for different apple varieties -->
+        </ul>
+      </div>
+
+      <div class="description">
+        <h2>BENEFITS</h2>
+        <p>Include benefits of the product here.</p>
+      </div>
+
+      <div class="add-to-cart">
+        <button>Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Your footer content -->
+  </footer>
+</body>
 </html>
